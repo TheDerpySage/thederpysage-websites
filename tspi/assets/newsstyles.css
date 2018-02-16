@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+img {
+	text-align: right;
+	float: right;
+	margin-left: 10px;
+	border: thin solid #ffffff;
+}
+h4 {
+	text-align: left;
+}
+
+table {
+	border-style:dashed;
+	border-width:3px;
+	border-color:#ffffff;
+}
+div {
+	border-style:dashed;
+	border-width:1px;
+	border-color:#fffffff;
+	text-align:center;
+}

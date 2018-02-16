@@ -1,0 +1,1 @@
+document.write("<p>Copyright © DerpySageMajora 2015</p>")

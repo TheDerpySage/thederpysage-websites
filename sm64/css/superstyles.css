@@ -1,0 +1,56 @@
+@charset "utf-8";
+.body_text {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	color: #FFF;
+}
+.body_motto {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #FFF;
+	font-style: italic;
+	text-align: center;
+}
+
+.body_em {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	color: #FFF;
+	font-style: italic;
+}
+
+
+
+.img_right_float {
+	float: right;
+	margin-left: 10px;
+	border: thin solid #5C75EB;
+}
+.img_left_float {
+	float: left;
+	margin-right: 10px;
+	border: thin solid #5C75EB;
+}
+a {
+	color: #E1E135;
+}
+
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36pt;
+	text-align: center;
+	color: #2AE429;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24pt;
+	color: #2AE429;
+	text-align: center;
+}
+
+.footer_text {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	color: #FFF;
+}

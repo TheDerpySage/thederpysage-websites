@@ -1,0 +1,1 @@
+﻿document.write("<p>Copyright © Test Team Please Ignore (TTPI) 2015</p>")

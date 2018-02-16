@@ -1,0 +1,1 @@
+document.write("<p><a HREF='link.html'><strong>LINK</strong></a>||<a href='TheWalkenator.html'><strong>WALKEN</strong></a>||<a HREF='NewCrabby.html'><strong>CRAB</strong></a>||<a HREF='dankmlg.html'><strong>MLG</strong></a>||<a HREF='nick.html'><strong>NICK</strong></a>||<a HREF='doge.html'><strong>DOGE</strong></a>||<a HREF='jontron.html'><strong>JON</strong></a></p>")

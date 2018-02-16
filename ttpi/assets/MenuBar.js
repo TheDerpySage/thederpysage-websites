@@ -1,0 +1,1 @@
+document.write("<p><a HREF='index.html'><strong>HOME</strong></a>||<a HREF='demos.php'><strong>DEMOS</strong></a>||<a HREF='psa.html'><strong>ABOUT</strong></a>||<a HREF='http://steamcommunity.com/groups/snakezone'><strong>STEAM</strong></a></p>")
