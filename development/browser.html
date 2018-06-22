@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Javascript Page</title>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+     <h1>Using the NoScript Tag</h1>
+     <noscript>
+         <p>Please enable JavaScript to use this page!</p>
+     </noscript>
+
+     <script language="JavaScript">
+         document.write("<p>You have JavaScript enabled!</p>");
+     </script>
+     
+      <h1>Browser Information</h1>
+      <noscript>
+          <p>Please enable JavaScript to use this page!</p>
+      </noscript>
+
+      <p id="name"></p>
+      <script language="JavaScript">
+        var browser = $.uaMatch(navigator.userAgent).browser;
+        $('p[id="name"]').html("Browser Name: <span>" + browser + "</span>");
+      </script>
+
+      <p id="version"></p>
+      <script language="JavaScript">
+        $('p[id="version"]').html("Version Number: <span>" + $.browser.version + "</span>");
+      </script>
+
+      <script language="JavaScript">
+        var Today = new Date();
+        document.write("<p>Full Date/Time: " + Today.toLocaleString() + "<br />");
+        document.write("Full Date: " + Today.toLocaleDateString() + "<br />");
+        document.write("Date Only: " + Today.toDateString() + "<br />");
+        document.write("Full Time: " + Today.toLocaleTimeString() + "<br />");
+        document.write("Time Only: " + Today.toTimeString() + "</p>");
+        document.write("<p>Custom Date (m/d/y): " + (Today.getMonth() + 1) + "/" + Today.getDate() + "/" + Today.getFullYear() + "<br />");
+        document.write("Custom Time (h:m:s:ms): " + Today.getHours() + ":" + Today.getMinutes() + ":" + Today.getSeconds() + "." + Today.getMilliseconds() + "</p>");
+      </script>
+   </body>
+</html>

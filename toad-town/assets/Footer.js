@@ -1,0 +1,1 @@
+﻿document.write("<p>Copyright © TheDerpySage 2017</p>")
